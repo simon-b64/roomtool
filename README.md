@@ -3,6 +3,18 @@
 Analyze a measured room impulse response (from REW) and use it to reduce the
 reverberation in recordings made in that room, by an adjustable dB amount.
 
+## Disclaimer
+
+This project was **vibe coded**: written by an AI coding agent (Claude) under
+human direction, optimized for "does the output sound good", not for
+correctness guarantees. It has not been formally reviewed or validated. The
+author takes **no responsibility whatsoever** for anything this software does —
+including, but not limited to, wrong analysis results, damaged or lost audio
+files, or decisions made based on its output. Use entirely at your own risk,
+keep backups of your originals, and verify any results that matter (e.g.
+cross-check RT60 values against REW). See [LICENSE](LICENSE) for the formal
+no-warranty terms.
+
 ## How it works
 
 1. `roomtool analyze` reads the REW impulse response export, splits it into

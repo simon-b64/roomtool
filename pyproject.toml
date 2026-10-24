@@ -6,6 +6,8 @@ build-backend = "setuptools.build_meta"
 name = "roomtool"
 version = "0.1.0"
 description = "Analyze a measured room impulse response (REW export) and use it to reduce reverberation in recordings by a chosen dB amount"
+license = {file = "LICENSE"}
+authors = [{name = "Simon Buchinger"}]
 requires-python = ">=3.10"
 dependencies = [
     "numpy>=1.26",
