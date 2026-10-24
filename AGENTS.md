@@ -63,9 +63,10 @@ parameters, not on architecture.
 - Install: `.venv\Scripts\pip install -e ".[test]"`.
 - Run tests before committing: `.venv\Scripts\python -m pytest tests -q`.
 - Real input data sits in the repo root: `IR Reihe 6 Mitte.txt` (REW export,
-  48 kHz, ~11 s) and `CKK202610.wav` (96 kHz stereo recording). Processed
-  outputs (`*_dereverb*.wav`, `*_residual.wav`, `room_profile.*`) are
-  gitignored — never commit rendered audio.
+  48 kHz, ~11 s, committed) and `CKK202610.wav` (96 kHz stereo recording,
+  NOT committed). All `*.wav` plus `room_profile.*` are gitignored — never
+  commit audio files; the recording was deliberately purged from history
+  before publishing (performer rights, repo size).
 - Keep the README's REW export instructions in sync with parser behavior
   (header required unless `--sr` given; no IR window; not minimum phase).
 
