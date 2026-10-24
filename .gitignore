@@ -5,3 +5,4 @@ __pycache__/
 room_profile.json
 room_profile.png
 *.wav
+IR *.txt
