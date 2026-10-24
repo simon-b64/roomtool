@@ -35,6 +35,9 @@ The measured IR is used statistically (decay rates), not sample-exactly —
 direct deconvolution would require the IR to be measured at the exact same
 source and microphone positions as the recording.
 
+A full explanation of the signal processing, with references, is in
+[HOW_IT_WORKS.md](HOW_IT_WORKS.md).
+
 ## Setting expectations
 
 Removing reverb from choir/orchestra recordings is the hardest case there is.
