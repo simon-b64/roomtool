@@ -62,11 +62,11 @@ parameters, not on architecture.
   `C:\Users\sbuchinger\Developer\mise.toml` — use the project-local one.
 - Install: `.venv\Scripts\pip install -e ".[test]"`.
 - Run tests before committing: `.venv\Scripts\python -m pytest tests -q`.
-- Real input data sits in the repo root: `IR Reihe 6 Mitte.txt` (REW export,
-  48 kHz, ~11 s, committed) and `CKK202610.wav` (96 kHz stereo recording,
-  NOT committed). All `*.wav` plus `room_profile.*` are gitignored — never
-  commit audio files; the recording was deliberately purged from history
-  before publishing (performer rights, repo size).
+- Real input data sits locally in the repo root but is NOT committed:
+  `IR Reihe 6 Mitte.txt` (REW export, 48 kHz, ~11 s) and `CKK202610.wav`
+  (96 kHz stereo recording). All `*.wav`, `IR *.txt` and `room_profile.*`
+  are gitignored — never commit measurement or audio data; both were
+  deliberately purged from history before publishing.
 - Keep the README's REW export instructions in sync with parser behavior
   (header required unless `--sr` given; no IR window; not minimum phase).
 
