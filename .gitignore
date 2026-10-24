@@ -4,5 +4,4 @@ __pycache__/
 .pytest_cache/
 room_profile.json
 room_profile.png
-*_dereverb*.wav
-*_residual.wav
+*.wav
